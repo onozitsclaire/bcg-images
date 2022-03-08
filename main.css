@@ -6,63 +6,64 @@
 
 body {
   font-family: "Courier New", Courier, monospace;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .nav {
-  height: auto;
+  height: 5rem;
   background: #222;
-  padding: 0%;
+  padding: 1rem 0;
 }
 
 .nav-title {
-  font-size: medium;
-  text-transform: capitalize;
-  font-weight: 200;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #fff;
-  letter-spacing: normal;
+  letter-spacing: 2px;
 }
 
 .nav-center {
-  width: auto;
-  max-width: 100vh;
-  margin: 50;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .hero {
-  background-image: url(./coffee.jpeg);
   background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 0.47102591036414565) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+      to right,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 0.47102591036414565) 35%,
+      rgba(0, 212, 255, 1) 100%
+    ),
+    url(./coffee.jpeg) center/cover;
+  min-height: calc(100vh-5rem);
 }
 
 .hero-center {
-  width: auto;
-  max-width: 100vh;
-  margin: 50;
-  padding: 5rem;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 5rem 0;
   color: #fff;
 }
 
 .hero-center h1 {
-  letter-spacing: 5px;
-  text-transform: lowercase;
-  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
 }
 
 .hero-center p {
-  max-width: 50px;
-  margin-bottom: 10px;
+  max-width: 35em;
+  margin-bottom: 1.5rem;
 }
 
 .hero-btn {
-  background: #ff3388;
-  border: #fff;
-  padding: 5px;
-  text-transform: capitalize;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 0.75rem 1.25rem;
+  text-transform: uppercase;
   color: #fff;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
 }
