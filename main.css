@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: normal;
+}
+
+.nav {
+  height: auto;
+  background: #222;
+  padding: 0%;
+}
+
+.nav-title {
+  font-size: medium;
+  text-transform: capitalize;
+  font-weight: 200;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.nav-center {
+  width: auto;
+  max-width: 100vh;
+  margin: 50;
+}
+
+.hero {
+  background-image: url(./coffee.jpeg);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.47102591036414565) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.hero-center {
+  width: auto;
+  max-width: 100vh;
+  margin: 50;
+  padding: 5rem;
+  color: #fff;
+}
+
+.hero-center h1 {
+  letter-spacing: 5px;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+
+.hero-center p {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-btn {
+  background: #ff3388;
+  border: #fff;
+  padding: 5px;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 10px;
+}
